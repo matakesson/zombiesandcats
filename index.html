@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats and Zombies</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3>Cat and Zombies</h3>
+  
+    <input type="button" id="moveNorth" value="N" onclick="movePlayer(this.value)">
+    <input type="button" id="moveSouth" value="S" onclick="movePlayer(this.value)">
+    <input type="button" id="moveWest" value="W" onclick="movePlayer(this.value)">
+    <input type="button" id="moveEast" value="E" onclick="movePlayer(this.value)">
+  
+    <div id="score" class="score"></div>
+    <div id="map" class="map"></div>
+    <div id="message" class="message"></div>
+    <div id="info" class="info"></div>
+
+    <div id="place" class="place"></div>
+    <div id="pic" class="cat"></div>
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>

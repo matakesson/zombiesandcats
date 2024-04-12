@@ -1,0 +1,50 @@
+img{
+    height: 400px;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: darkslategray;
+}
+
+#message {
+    padding: 15px;
+    font-size: large;
+    margin: 15px;
+    color: red;
+}
+
+#score {
+    padding: 15px;
+    font-size: large;
+}
+
+#info {
+    color: black;
+}
+
+#map {
+    width: 65px;
+    background-color: black;
+    color: white;
+}
+
+div{
+    margin: 5px;
+}
+
+.place {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.cat {
+    position: absolute;
+    top: 352px;
+    left: 780px;
+    width: 200px;
+}
+
+
